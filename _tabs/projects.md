@@ -1,5 +1,5 @@
 ---
-icon: fas fa-toobox
+icon: fas fa-toolbox
 order: 1
 ---
 
