@@ -2,9 +2,8 @@
 layout: post
 title: "Getting the Most Out of Cobalt Strike’s Browser Pivot"
 date: 2019-12-18 09:00:00 -0500
-categories: research
 image:
-  path: /assets/images/browser-pivot-header/png
+  path: /assets/images/browser-pivot-header.png
   alt: Cobalt Strike Browswer Pivot
 ---
 
