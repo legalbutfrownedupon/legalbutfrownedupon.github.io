@@ -53,4 +53,4 @@ Hopefully this post will help you as an operator utilize the browser pivot funct
 
 As always, read the CS documentation on these features to fully understand their functionality.
 
-https://cobaltstrike.com/help-browser-pivoting
+<https://cobaltstrike.com/help-browser-pivoting>
