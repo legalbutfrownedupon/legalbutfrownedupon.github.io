@@ -1,6 +1,6 @@
 ---
-icon: fas fa-tags
-order: 5
+icon: fas fa-biohazard
+order: 2
 ---
 
-# Advisories
+### Advisories
