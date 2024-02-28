@@ -40,31 +40,31 @@ fwflush        Flush all firewall rules created
 These commands can be issued at any time once HoneyPorts has launched.
   
 Examples:
-Basic usage of HoneyPorts running on ports 21 and 23.
+Basic usage of HoneyPorts running on ports 21 and 23.  
 ![Desktop View](/assets/images/hp_1.png) 
 
-Attempting to run HoneyPorts on a port that is currently being used by another service (SSH).  HoneyPorts will continue to run on successful ports.
+Attempting to run HoneyPorts on a port that is currently being used by another service (SSH).  HoneyPorts will continue to run on successful ports.  
 ![Desktop View](/assets/images/hp_2.png) 
 
-Running in verbose mode and also using -e to flush all firewall rules every 60 minutes.
+Running in verbose mode and also using -e to flush all firewall rules every 60 minutes.  
 ![Desktop View](/assets/images/hp_3.png) 
 
-Setting custom locations for both the config file and the output log file.  Using these commands at run-time take precedence over values in the config file.
+Setting custom locations for both the config file and the output log file.  Using these commands at run-time take precedence over values in the config file.  
 ![Desktop View](/assets/images/hp_4.png) 
 
-Connection attempt was made from a whitelisted host.
+Connection attempt was made from a whitelisted host.  
 ![Desktop View](/assets/images/hp_5.png) 
 
-Running the h command once the program has started will list all possible commands that can be used in command mode.
+Running the h command once the program has started will list all possible commands that can be used in command mode.  
 ![Desktop View](/assets/images/hp_6.png) 
 
-fwlist command shows there are no firewall rules.  A connection attempt is made from 10.0.0.5.  A firewall rule is created.  Running fwlist again shows the new firewall rule.  Running the fwflush command clears all firewall rules.  Running fwlist yet again verifies that the fiewall rule has been flushed.
+fwlist command shows there are no firewall rules.  A connection attempt is made from 10.0.0.5.  A firewall rule is created.  Running fwlist again shows the new firewall rule.  Running the fwflush command clears all firewall rules.  Running fwlist yet again verifies that the fiewall rule has been flushed.  
 ![Desktop View](/assets/images/hp_7.png) 
 
-Similar example as above but this time the firewall rules were cleared via the timer set with the -e command at run-time.  No user interaction was needed to clear the firewall rules in this case.
+Similar example as above but this time the firewall rules were cleared via the timer set with the -e command at run-time.  No user interaction was needed to clear the firewall rules in this case.  
 ![Desktop View](/assets/images/hp_8.png) 
 
-Running the -h option will display the usage which lists all run-time commands as well as all interactive mode commands.
+Running the -h option will display the usage which lists all run-time commands as well as all interactive mode commands.  
 ![Desktop View](/assets/images/hp_9.png) 
 
 ## Config File
