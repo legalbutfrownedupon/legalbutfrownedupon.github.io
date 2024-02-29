@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Customizing Powershell Empire to Avoid Detection"
-date: 2016-06-17 00:00:00 -0000
+date: 2017-06-17 00:00:00 -0000
 image:
   path: /assets/images/empire_banner.png
   alt: Empire C2 Opsec
