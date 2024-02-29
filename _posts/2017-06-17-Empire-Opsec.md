@@ -11,7 +11,7 @@ Powershell Empire is a very powerful post-exploitation framework for Windows env
 
 Before we get into what changes can be made to alter Empire traffic, it is important to understand the Empire staging process and what data is in the network traffic at each stage.
 
-For this example, we will be using the Launcher stager which is a Powershell one-liner that will perform an IEX on a file hosted on Empire’s web server in order to pull down the stage 2 payload. More detailed information about the staging process can be found on the Empire website at: https://www.powershellempire.com/
+For this example, we will be using the Launcher stager which is a Powershell one-liner that will perform an IEX on a file hosted on Empire’s web server in order to pull down the stage 2 payload. More detailed information about the staging process can be found on the Empire website at: [Empire](https://github.com/EmpireProject/Empire)
 
 Most common network intrusion devices will look to identify common components in the staging process. Those items can include the user agent string, the name of the files being accessed, the protocol and the port number. There will be different artifacts at different stages of the staging process that should be changed. We will first take a look at custom profiles and how to use them while creating a listener.
 
