@@ -4,4 +4,4 @@ order: 3
 ---
 
 
-[Capture The Flag](https://ctf.legalbutfrownedupon.com)
+[Capture The Flag](https://ctf.legalbutfrownedupon.com/)
